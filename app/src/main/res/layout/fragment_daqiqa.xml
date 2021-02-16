@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/ums"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:background="#BF5955"-->
+    <!--        android:gravity="center|start"-->
+    <!--        android:paddingLeft="80dp"-->
+    <!--        android:text="Daqiqalar"-->
+    <!--        android:textColor="@android:color/white"-->
+    <!--        android:textSize="22sp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--    <androidx.appcompat.widget.AppCompatImageButton-->
+    <!--        android:id="@+id/back_to_home"-->
+    <!--        android:layout_width="24dp"-->
+    <!--        android:layout_height="24dp"-->
+    <!--        android:layout_marginLeft="20dp"-->
+    <!--        android:background="@android:color/transparent"-->
+    <!--        android:src="@drawable/ic_leftarrow"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@id/ums"-->
+    <!--        app:layout_constraintLeft_toLeftOf="@id/ums"-->
+    <!--        app:layout_constraintTop_toTopOf="@id/ums" />-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:listitem="@layout/item_daqiqa" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

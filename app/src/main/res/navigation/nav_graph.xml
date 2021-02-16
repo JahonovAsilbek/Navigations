@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="uz.revolution.navigationumsapp.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_tarifFragment"
+            app:destination="@id/tarifFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_enter_anim" />
+        <action
+            android:id="@+id/action_homeFragment_to_daqiqaFragment"
+            app:destination="@id/daqiqaFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_homeFragment_to_internetFragment"
+            app:destination="@id/internetFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_homeFragment_to_smsFragment"
+            app:destination="@id/smsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/action_homeFragment_to_sozlamalarFragment"
+            app:destination="@id/sozlamalarFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/tarifFragment"
+        android:name="uz.revolution.navigationumsapp.TarifFragment"
+        android:label="fragment_tarif"
+        tools:layout="@layout/fragment_tarif" >
+        <action
+            android:id="@+id/action_tarifFragment_to_rateFragment"
+            app:destination="@id/rateFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rateFragment"
+        android:name="uz.revolution.navigationumsapp.RateFragment"
+        android:label="fragment_rate"
+        tools:layout="@layout/fragment_rate" />
+    <fragment
+        android:id="@+id/daqiqaFragment"
+        android:name="uz.revolution.navigationumsapp.DaqiqaFragment"
+        android:label="fragment_daqiqa"
+        tools:layout="@layout/fragment_daqiqa" >
+        <action
+            android:id="@+id/action_daqiqaFragment_to_minuteFragment"
+            app:destination="@id/minuteFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/minuteFragment"
+        android:name="uz.revolution.navigationumsapp.MinuteFragment"
+        android:label="fragment_minute"
+        tools:layout="@layout/fragment_minute" />
+    <fragment
+        android:id="@+id/internetFragment"
+        android:name="uz.revolution.navigationumsapp.InternetFragment"
+        android:label="fragment_internet"
+        tools:layout="@layout/fragment_internet" >
+        <action
+            android:id="@+id/action_internetFragment_to_trafikFragment"
+            app:destination="@id/trafikFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/trafikFragment"
+        android:name="uz.revolution.navigationumsapp.TrafikFragment"
+        android:label="fragment_trafik"
+        tools:layout="@layout/fragment_trafik" />
+    <fragment
+        android:id="@+id/smsFragment"
+        android:name="uz.revolution.navigationumsapp.SmsFragment"
+        android:label="fragment_sms"
+        tools:layout="@layout/fragment_sms" >
+        <action
+            android:id="@+id/action_smsFragment_to_sms2Fragment"
+            app:destination="@id/sms2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sms2Fragment"
+        android:name="uz.revolution.navigationumsapp.Sms2Fragment"
+        android:label="fragment_sms2"
+        tools:layout="@layout/fragment_sms2" />
+    <fragment
+        android:id="@+id/sozlamalarFragment"
+        android:name="uz.revolution.navigationumsapp.SozlamalarFragment"
+        android:label="fragment_sozlamalar"
+        tools:layout="@layout/fragment_sozlamalar" />
+    <fragment
+        android:id="@+id/yangiliklarFragment"
+        android:name="uz.revolution.navigationumsapp.YangiliklarFragment"
+        android:label="fragment_yangiliklar"
+        tools:layout="@layout/fragment_yangiliklar" />
+</navigation>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <ImageView
+        android:id="@+id/ums"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:src="@drawable/ums"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        app:layout_constraintTop_toBottomOf="@id/ums"
+        android:id="@+id/q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/tarif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_tarif"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/daqiqa"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="tariflar"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            app:layout_constraintLeft_toLeftOf="@id/tarif"
+            app:layout_constraintRight_toRightOf="@id/tarif"
+            app:layout_constraintTop_toBottomOf="@id/tarif" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/daqiqa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_daqiqa"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/tarif"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="daqiqalar"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            app:layout_constraintLeft_toLeftOf="@id/daqiqa"
+            app:layout_constraintRight_toRightOf="@id/daqiqa"
+            app:layout_constraintTop_toBottomOf="@id/daqiqa" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/q2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/q1">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/internet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_internet"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/sozlamalar"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="internet"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            app:layout_constraintLeft_toLeftOf="@id/internet"
+            app:layout_constraintRight_toRightOf="@id/internet"
+            app:layout_constraintTop_toBottomOf="@id/internet" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/sozlamalar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_sozlamalar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/internet"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="sozlamalar"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            app:layout_constraintLeft_toLeftOf="@id/sozlamalar"
+            app:layout_constraintRight_toRightOf="@id/sozlamalar"
+            app:layout_constraintTop_toBottomOf="@id/sozlamalar" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/q3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/q2">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/sms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_sms"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/yangiliklar"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="sms"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            app:layout_constraintLeft_toLeftOf="@id/sms"
+            app:layout_constraintRight_toRightOf="@id/sms"
+            app:layout_constraintTop_toBottomOf="@id/sms" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/yangiliklar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_yangiliklar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/sms"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="yangiliklar"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            app:layout_constraintLeft_toLeftOf="@id/yangiliklar"
+            app:layout_constraintRight_toRightOf="@id/yangiliklar"
+            app:layout_constraintTop_toBottomOf="@id/yangiliklar" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

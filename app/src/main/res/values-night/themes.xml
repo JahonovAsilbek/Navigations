@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NavigationUMSApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#BF5955</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+    <item name="colorOnPrimary">#BF5955</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#BF5955</item>
+        <item name="colorSecondaryVariant">#BF5955</item>
+        <item name="colorOnSecondary">#BF5955</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

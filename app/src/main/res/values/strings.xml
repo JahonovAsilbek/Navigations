@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Navigation UMS app</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mobi20">Abonent to‘lovi oyiga/kuniga - 20 000/1 000 so‘m. \n\n500/17 daqiqa (oyiga/kuniga) MOBIUZ abonentlariga,
+        \n\nO‘zbekistonning boshqa mobil operatorlari abonentlariga, Shahar raqamlariga chiquvchi qo\'ng\'iroqlarga
+    2 000/67 MB* \n\nMobil internet (oyiga/kuniga) («Yorqin kuz» aksiyasi doirasida). \n\n500/17 SMS (oyiga/kuniga )
+    </string>
+
+    <string name="mobi30">Abonent to‘lovi oyiga 30 000 so‘m. \n\nO‘zbekiston bo‘yicha chiquvchi qo‘ng‘iroqlarga 1 000 daqiqa.
+        \n\nMobil internet («Yorqin kuz» aksiyasi doirasida) 5 000 МB* \n\nOyiga 1 000 SMS</string>
+
+    <string name="mobi40">Abonent to‘lovi oyiga 40 000 so‘m. \n\nO‘zbekiston bo‘yicha chiquvchi qo‘ng‘iroqlarga 1 000 daqiqa.
+        \n\nMobil internet («Yorqin kuz» aksiyasi doirasida) 5 000 МB*. \n\nOyiga 1 000 SMS</string>
+
+    <string name="mobi50">Abonent to‘lovi oyiga 50 000 so‘m. \n\nMobiuz tarmog\'i ichidagi qo‘ng‘iroqlarga UNLIM.
+        \n\nO‘zbekiston bo‘yicha chiquvchi qo‘ng‘iroqlarga 1 500 daqiqa. \n\nMobil internet («Yorqin kuz» aksiyasi doirasida)
+    10 000 MB*. SMS 1 500.</string>
+
+    <string name="mobi70">Abonent to\'lovi oyiga 70 000 so‘m. \n\nMobiuz tarmog\'i ichidagi qo‘ng‘iroqlarga UNLIM.
+        \n\nO’zbekistonning boshqa mobil operatorlari abonentlarga, shahar raqamlariga 2 500 daqiqa. \n\nMobil internet
+        («Yorqin kuz» aksiyasi doirasida) 20 000 MB*. SMS 2500</string>
+
+    <string name="mobi90">Abonent to\'lovi oyiga 90 000 so‘m.\n\n Mobiuz tarmog\'i ichidagi qo‘ng‘iroqlarga UNLIM.
+        \n\nO’zbekistonning boshqa mobil operatorlari abonentlarga, shahar raqamlariga 3 500 daqiqa. \n\nMobil internet
+        («Yorqin kuz» aksiyasi doirasida) 65 000 MB*. SMS 3500</string>
+
+    <string name="mobi110">Abonent to‘lovi oyiga 110 000 so‘m. \n\nO‘zbekiston bo‘yicha chiquvchi qo‘ng‘iroqlarga UNLIM.
+        \n\nMobil internet («Yorqin kuz» aksiyasi doirasida) 80 000 MB*. SMS 5 500.</string>
+
+    <string name="mobi150">Abonent to‘lovi oyiga 150 000 so‘m. \n\nO‘zbekiston bo‘yicha chiquvchi qo‘ng‘iroqlarga UNLIM.
+        \n\nMobil internet («Yorqin kuz» aksiyasi doirasida) 100 000 MB*. SMS 10 000.</string>
+
+    <string name="daqiqa60">To‘plam narxi (so\'m) - 4 000 so\'m. \n\nUSSD buyruq yordamida xarid qilish - *103*60#.
+    \n\nSMS-yordamchi orqali yoqish - 616020 raqamiga 60</string>
+
+    <string name="daqiqa120">To‘plam narxi (so\'m) - 7 000 so\'m. \n\nUSSD buyruq yordamida xarid qilish - *103*120#.
+    \n\nSMS-yordamchi orqali yoqish - 616020 raqamiga 120</string>
+
+    <string name="daqiqa180">To‘plam narxi (so\'m) - 10 000 so\'m. \n\nUSSD buyruq yordamida xarid qilish - *103*180#.
+    \n\nSMS-yordamchi orqali yoqish - 616020 raqamiga 180</string>
+
+    <string name="daqiqa300">To‘plam narxi (so\'m) - 16 000 so\'m. \n\nUSSD buyruq yordamida xarid qilish - *103*300#.
+    \n\nSMS-yordamchi orqali yoqish - 616020 raqamiga 300</string>
+
+    <string name="daqiqa900">To‘plam narxi (so\'m) - 37 000 so\'m. \n\nUSSD buyruq yordamida xarid qilish - *103*900#.
+    \n\nSMS-yordamchi orqali yoqish - 616020 raqamiga 900</string>
+
+    <string name="daqiqa1200">To‘plam narxi (so\'m) - 45 000 so\'m. \n\nUSSD buyruq yordamida xarid qilish - *103*1200#.
+    \n\nSMS-yordamchi orqali yoqish - 616020 raqamiga 1200</string>
+
+    <string name="daqiqa1800">To‘plam narxi (so\'m) - 62 000 so\'m. \n\nUSSD buyruq yordamida xarid qilish - *103*1800#.
+    \n\nSMS-yordamchi orqali yoqish - 616020 raqamiga 1800</string>
+
+    <string name="mb300">To\'plam narxi 8 000 so\'m. \n\nXarid qilish uchun USSD-buyruq - *102*300#.
+    \n\nSMS-yordamchi orqali xarid qilish - 616019 raqamiga 300</string>
+
+    <string name="mb500">To\'plam narxi 9 000 so\'m. \n\nXarid qilish uchun USSD-buyruq - *102*500#.
+    \n\nSMS-yordamchi orqali xarid qilish - 616019 raqamiga 500</string>
+
+    <string name="mb1000">To\'plam narxi 11 000 so\'m. \n\nXarid qilish uchun USSD-buyruq - *102*1000#.
+    \n\nSMS-yordamchi orqali xarid qilish - 616019 raqamiga 1000</string>
+
+    <string name="mb2000">To\'plam narxi 17 000 so\'m. \n\nXarid qilish uchun USSD-buyruq - *102*2000#.
+    \n\nSMS-yordamchi orqali xarid qilish - 616019 raqamiga 2000</string>
+
+    <string name="mb3000">To\'plam narxi 25 000 so\'m. \n\nXarid qilish uchun USSD-buyruq - *102*3000#.
+    \n\nSMS-yordamchi orqali xarid qilish - 616019 raqamiga 3000</string>
+
+    <string name="mb5000">To\'plam narxi 33 000 so\'m. \n\nXarid qilish uchun USSD-buyruq - *102*5000#.
+    \n\nSMS-yordamchi orqali xarid qilish - 616019 raqamiga 5000</string>
+
+    <string name="mb10000">To\'plam narxi 50 000 so\'m. \n\nXarid qilish uchun USSD-buyruq - *102*10000#.
+    \n\nSMS-yordamchi orqali xarid qilish - 616019 raqamiga 10000</string>
+
+    <string name="mb20000">To\'plam narxi 55 000 so\'m. \n\nXarid qilish uchun USSD-buyruq - *102*20000#.
+    \n\nSMS-yordamchi orqali xarid qilish - 616019 raqamiga 20000</string>
+
+    <string name="mb30000">To\'plam narxi 65 000 so\'m. \n\nXarid qilish uchun USSD-buyruq - *102*30000#.
+    \n\nSMS-yordamchi orqali xarid qilish - 616019 raqamiga 30000</string>
+
+    <string name="mb50000">To\'plam narxi 75 000 so\'m. \n\nXarid qilish uchun USSD-buyruq - *102*50000#.
+    \n\nSMS-yordamchi orqali xarid qilish - 616019 raqamiga 50000</string>
+
+    <string name="sms100">To\'plamning narxi - 4210,35 so\'m\
+        n\nTo\'plamdagi SMS-xabarlar soni - 100.
+        \n\nTo\'plamga ulanish uchun (USSD) sеrvis raqami - *104*100#.
+        \n\n«SMS yordamchi» vositasida faollashtirish - 616018 raqamiga 100 sonini
+    </string>
+
+    <string name="sms300">To\'plamning narxi - 10104,84 so\'m\
+        n\nTo\'plamdagi SMS-xabarlar soni - 300.
+        \n\nTo\'plamga ulanish uchun (USSD) sеrvis raqami - *104*300#.
+        \n\n«SMS yordamchi» vositasida faollashtirish - 616018 raqamiga 300 sonini
+    </string>
+
+    <string name="news">Hurmatli abonentlar!
+
+\n\n2021-yilning 11-fevral sanasidan quyidagi xizmatlarning narxlariga o‘zgartirishlar kiritilayotganini ma’lum qilamiz:
+
+        \n\n«Hisobni aniqlash» (ofisda) – 15 000 so‘m  (kalendar oyining 1 kunidan 31 kunigacha,har qanday o‘tgan davri uchun).
+
+\n\n«SIM-kartani almashtirish» – 5 000 so‘m
+
+\n\n«Super 0» – xizmatni ulashning narxi 10 000 so‘m  (bir marotaba, xizmat ulanganda yechiladi)
+
+\n\n«Menga qo‘ng’iroq qil» – 1 so‘rovning narxi 50 so‘m
+
+\n\n«Sizga qo‘ng‘iroq qilishdi» – abonent to‘lovi  kuniga 100 so‘m
+
+\n\n«Raqamni saqlab turish» – abonent to‘lovi  kuniga 250 so‘m
+
+\n\n«АнтиАОН» – abonent to‘lovi  kuniga 500 so‘m
+
+\n\n«Bir martalik АntiАОN» – bir marta qo‘ng‘iroq qilish narxi 300 so‘m
+
+\n\n«SMS - OnNet» (50) - ulash narxi 450 so‘m  (bir marta yechiladi), kunlik to‘lov – 450 so‘m  (xizmat ulangan kuni OLINMAYDI)
+
+
+
+\n\nShuningdek, SMS- to‘plamlar va xalqaro qo‘ng’iroqlar narxlariga ham o‘zgartirishlar kiritilmoqda:
+
+\n\nSMS– to‘plam 100 – 4 500 so‘m
+
+\n\nSMS- to‘plam 300 – 10 500 so‘m
+
+
+
+Mamlakatlar bo‘yicha qo‘ng’iroqlar:
+
+Markaziy Osiyo (Tojikiston, Qozog‘iston, Turkmaniston, Qirg‘iziston)- 2 500 so‘m
+Rossiya va boshqa MDH mamlakatlari - 3200 so‘m
+
+Yevropa – 7 000 so‘m
+
+Osiyo – 8 700 so‘m
+
+Аmеrika, Afrika – 8 300 so‘m
+
+Qolgan dunyo – 8 300 so‘m</string>
+
+</resources>
